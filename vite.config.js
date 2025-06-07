@@ -1,7 +1,7 @@
 import { defineConfig } from "vite"
 
 export default defineConfig({
-  base: "/joombloir-coffee-shop/",
+  // base: "/joombloir-coffee-shop/",
   server: {
     port: 3000,
     open: true,
