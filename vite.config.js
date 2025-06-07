@@ -1,4 +1,4 @@
-import { defineConfig } from "vite"
+import { defineConfig } from "vite";
 
 export default defineConfig({
   base: "/joombloir-coffee-shop/",
@@ -12,8 +12,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      "@": "/src",
+      "@": "/src/",
     },
   },
-})
-
+});
